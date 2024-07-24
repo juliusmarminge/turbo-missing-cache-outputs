@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/tsc.json",
+  "extends": "@repo/tsconfig/tsc.json",
   "compilerOptions": {},
   "include": ["src", "*.ts"],
   "exclude": ["node_modules"]

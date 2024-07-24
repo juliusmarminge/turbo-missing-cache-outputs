@@ -20,12 +20,12 @@ importers:
 
   apps/app:
     dependencies:
+      '@repo/pkg':
+        specifier: workspace:*
+        version: link:../../pkgs/pkg
       next:
         specifier: 15.0.0-canary.79
         version: 15.0.0-canary.79(react-dom@19.0.0-rc-dfd30974ab-20240613(react@19.0.0-rc-dfd30974ab-20240613))(react@19.0.0-rc-dfd30974ab-20240613)
-      pkg:
-        specifier: workspace:*
-        version: link:../../pkgs/pkg
       react:
         specifier: 19.0.0-rc-dfd30974ab-20240613
         version: 19.0.0-rc-dfd30974ab-20240613
@@ -45,12 +45,12 @@ importers:
 
   pkgs/pkg:
     devDependencies:
+      '@repo/tsconfig':
+        specifier: workspace:*
+        version: link:../../tools/tsconfig
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../tools/tsconfig
       typescript:
         specifier: 5.5.4
         version: 5.5.4

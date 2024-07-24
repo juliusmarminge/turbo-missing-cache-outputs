@@ -1,5 +1,5 @@
 {
-  "name": "pkg",
+  "name": "@repo/pkg",
   "private": true,
   "type": "module",
   "exports": {
@@ -16,7 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "tsconfig": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
     "eslint": "^8.57.0",
     "typescript": "5.5.4"
   }
