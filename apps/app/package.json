@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "19.0.0-rc-dfd30974ab-20240613",
     "react-dom": "19.0.0-rc-dfd30974ab-20240613",
-    "next": "15.0.0-canary.79"
+    "next": "15.0.0-canary.79",
+    "pkg": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.5.4",

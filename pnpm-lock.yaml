@@ -23,6 +23,9 @@ importers:
       next:
         specifier: 15.0.0-canary.79
         version: 15.0.0-canary.79(react-dom@19.0.0-rc-dfd30974ab-20240613(react@19.0.0-rc-dfd30974ab-20240613))(react@19.0.0-rc-dfd30974ab-20240613)
+      pkg:
+        specifier: workspace:*
+        version: link:../../pkgs/pkg
       react:
         specifier: 19.0.0-rc-dfd30974ab-20240613
         version: 19.0.0-rc-dfd30974ab-20240613
