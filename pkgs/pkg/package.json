@@ -1,0 +1,23 @@
+{
+  "name": "@repo/internal-pkg",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc",
+    "clean": "rm -rf .turbo dist node_modules",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*",
+    "eslint": "^8.57.0",
+    "typescript": "5.5.4"
+  }
+}

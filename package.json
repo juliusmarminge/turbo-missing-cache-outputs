@@ -1,0 +1,20 @@
+{
+  "name": "turbo-self-referencing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo watch dev",
+    "build": "turbo run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20",
+    "prettier": "^3.3.3",
+    "turbo": "^2.0.9"
+  },
+  "packageManager": "pnpm@9.6.0",
+  "prettier": {}
+}
