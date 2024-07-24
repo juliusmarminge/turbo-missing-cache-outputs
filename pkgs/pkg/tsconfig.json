@@ -1,6 +1,6 @@
 {
   "extends": "tsconfig/tsc.json",
   "compilerOptions": {},
-  "include": ["*.ts", "src"],
+  "include": ["src", "*.ts"],
   "exclude": ["node_modules"]
 }
